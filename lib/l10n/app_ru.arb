@@ -1,0 +1,235 @@
+{
+  "appTitle": "Приложение для брони",
+  "home": "Главная",
+  "favorites": "Избранное",
+  "cars": "Автомобили",
+  "settings": "Настройки",
+  "profile": "Профиль",
+  "searchByModel": "Поиск по модели...",
+  "sortBy": "Сортировать по",
+  "model": "Модель",
+  "price": "Цена",
+
+  "welcomeMessage": "Добро пожаловать в RentApp",
+  "@@locale": "ru",
+
+  "hello": "Привет",
+  "user": "Пользователь",
+  "findYourPerfectRide": "Найдите идеальный автомобиль сегодня!",
+  "featuredCars": "Рекомендуемые автомобили",
+  "seeAll": "Смотреть все",
+  "hour": "час",
+  "rentNow": "Арендовать",
+  "specialOffers": "Специальные предложения",
+  "off": "СКИДКА",
+  "weekendSpecial": "Выходные специальные",
+  "useCode": "Используйте код",
+  "errorLoadingFeaturedCars": "Ошибка загрузки автомобилей",
+
+
+  "appearance": "Внешний вид",
+  "darkMode": "Темный режим",
+  "appTheme": "Тема приложения",
+  "general": "Общие",
+  "language": "Язык",
+  "enableNotifications": "Включить уведомления",
+  "notificationsDescription": "Получайте обновления о новых предложениях и статусе бронирования",
+  "enableLocation": "Включить местоположение",
+  "locationDescription": "Разрешить приложению доступ к вашему местоположению для поиска ближайших автомобилей",
+  "saveRecentSearches": "Сохранять недавние поиски",
+  "recentSearchesDescription": "Сохраняйте историю поиска для быстрого доступа",
+  "clearAppData": "Очистить данные приложения",
+  "clearAppDataDescription": "Очистить кэш и несущественные данные",
+  "clearAppDataConfirmation": "Это очистит все данные приложения, кроме информации вашей учетной записи. Продолжить?",
+  "cancel": "Отмена",
+  "clear": "Очистить",
+  "appDataCleared": "Данные приложения успешно очищены",
+
+  "account": "Учетная запись",
+  "notSignedIn": "Не вошли в систему",
+  "emailAddress": "Адрес электронной почты",
+  "logout": "Выйти",
+  "logoutConfirmation": "Вы уверены, что хотите выйти?",
+  "deleteAccount": "Удалить учетную запись",
+  "deleteAccountConfirmation": "Это навсегда удалит вашу учетную запись и все связанные данные. Это действие нельзя отменить. Продолжить?",
+  "delete": "Удалить",
+
+
+  "about": "О приложении",
+  "appVersion": "Версия приложения",
+  "termsOfService": "Условия использования",
+  "privacyPolicy": "Политика конфиденциальности",
+  "removedFromFavorites": "Удалена {model} из избранного",
+  "@removedFromFavorites": {
+    "description": "Message shown when a car is removed from favorites",
+    "placeholders": {
+      "model": {
+        "type": "String",
+        "example": "Toyota Camry"
+      }
+    }
+  },
+  "undo": "Отменить",
+  "@undo": {
+    "description": "Label for the undo action"
+  },
+  "remove": "Удалить",
+  "@remove": {
+    "description": "Label for the remove action"
+  },
+  "error": "Ошибка",
+  "@error": {
+    "description": "Label for error messages"
+  },
+  "noFavoriteCars": "Нет избранных автомобилей",
+  "@noFavoriteCars": {
+    "description": "Message shown when there are no favorite cars"
+  },
+  "markCarsAsFavorite": "Отметьте автомобили как избранные, чтобы увидеть их здесь",
+  "@markCarsAsFavorite": {
+    "description": "Instruction to mark cars as favorite"
+  },
+
+  "@profile": {
+    "description": "Label for profile screen"
+  },
+  "editProfile": "Редактировать профиль",
+  "@editProfile": {
+    "description": "Label for edit profile action"
+  },
+  "cancelEditing": "Отменить редактирование",
+  "@cancelEditing": {
+    "description": "Label for cancel editing action"
+  },
+  "errorLoadingProfile": "Ошибка загрузки профиля: {error}",
+  "@errorLoadingProfile": {
+    "description": "Error message when profile cannot be loaded",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "selectImageSource": "Выберите источник изображения",
+  "@selectImageSource": {
+    "description": "Title for image source selection dialog"
+  },
+  "camera": "Камера",
+  "@camera": {
+    "description": "Option to take a photo using camera"
+  },
+  "gallery": "Галерея",
+  "@gallery": {
+    "description": "Option to select a photo from gallery"
+  },
+
+  "@cancel": {
+    "description": "Label for cancel action"
+  },
+  "imagePickerPermissionError": "Нет доступа к камере или фото. Пожалуйста, проверьте разрешения приложения.",
+  "@imagePickerPermissionError": {
+    "description": "Error message shown when image picker permissions are denied"
+  },
+  "errorSelectingImage": "Ошибка выбора изображения: {error}",
+  "@errorSelectingImage": {
+    "description": "Error message when image selection fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Permission denied"
+      }
+    }
+  },
+  "errorUploadingImage": "Ошибка загрузки изображения: {error}",
+  "@errorUploadingImage": {
+    "description": "Error message when image upload fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "profileUpdatedSuccess": "Профиль успешно обновлен",
+  "@profileUpdatedSuccess": {
+    "description": "Success message when profile is updated"
+  },
+  "errorUpdatingProfile": "Ошибка обновления профиля: {error}",
+  "@errorUpdatingProfile": {
+    "description": "Error message when profile update fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "errorSigningOut": "Ошибка выхода из системы: {error}",
+  "@errorSigningOut": {
+    "description": "Error message when sign out fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "ok": "ОК",
+  "@ok": {
+    "description": "Label for OK action"
+  },
+  "fullName": "Полное имя",
+  "@fullName": {
+    "description": "Label for full name field"
+  },
+  "phoneNumber": "Номер телефона",
+  "@phoneNumber": {
+    "description": "Label for phone number field"
+  },
+  "address": "Адрес",
+  "@address": {
+    "description": "Label for address field"
+  },
+  "saveProfile": "Сохранить профиль",
+  "@saveProfile": {
+    "description": "Label for save profile action"
+  },
+  "accountInformation": "Информация об аккаунте",
+  "@accountInformation": {
+    "description": "Label for account information section"
+  },
+  "signOut": "Выйти",
+  "@signOut": {
+    "description": "Label for sign out action"
+  },
+  "nameRequired": "Имя обязательно",
+  "@nameRequired": {
+    "description": "Validation message when name field is empty"
+  },
+  "noEmail": "Нет email",
+  "@noEmail": {
+    "description": "Text shown when user has no email"
+  },
+  "memberSince": "Участник с",
+  "@memberSince": {
+    "description": "Label for member since field"
+  },
+  "rentals": "Аренды",
+  "@rentals": {
+    "description": "Label for rentals field"
+  },
+  "status": "Статус",
+  "@status": {
+    "description": "Label for status field"
+  },
+  "active": "Активен",
+  "@active": {
+    "description": "Label for active status"
+  },
+  "reviews": "Отзывы",
+  "@reviews": {
+    "description": "Label for reviews field"
+  }
+
+}

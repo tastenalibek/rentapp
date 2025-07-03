@@ -1,0 +1,237 @@
+{
+  "appTitle": "RentApp",
+  "home": "Home",
+  "favorites": "Favorites",
+  "cars": "Cars",
+  "settings": "Settings",
+  "profile": "Profile",
+  "searchByModel": "Search by model...",
+  "sortBy": "Sort by",
+  "model": "Model",
+  "price": "Price",
+  "error": "Error",
+  "welcomeMessage": "Welcome to RentApp",
+  "@welcomeMessage": {
+    "description": "The welcome message displayed on the home screen"
+  },
+  "@@locale": "en",
+
+  "hello": "Hello",
+  "user": "User",
+  "findYourPerfectRide": "Find your perfect ride today!",
+  "featuredCars": "Featured Cars",
+  "seeAll": "See All",
+  "hour": "hour",
+  "rentNow": "Rent Now",
+  "specialOffers": "Special Offers",
+  "off": "OFF",
+  "weekendSpecial": "Weekend Special",
+  "useCode": "Use code",
+  "errorLoadingFeaturedCars": "Error loading featured cars",
+
+
+  "appearance": "Appearance",
+  "darkMode": "Dark Mode",
+  "appTheme": "App Theme",
+  "general": "General",
+  "language": "Language",
+  "enableNotifications": "Enable Notifications",
+  "notificationsDescription": "Get updates about new offers and booking status",
+  "enableLocation": "Enable Location",
+  "locationDescription": "Allow app to access your location for nearby cars",
+  "saveRecentSearches": "Save Recent Searches",
+  "recentSearchesDescription": "Save your search history for quicker access",
+  "clearAppData": "Clear App Data",
+  "clearAppDataDescription": "Clear cache and non-essential data",
+  "clearAppDataConfirmation": "This will clear all app data except your account information. Continue?",
+  "cancel": "Cancel",
+  "clear": "Clear",
+  "appDataCleared": "App data cleared successfully",
+
+  "account": "Account",
+  "notSignedIn": "Not signed in",
+  "emailAddress": "Email Address",
+  "logout": "Logout",
+  "logoutConfirmation": "Are you sure you want to logout?",
+  "deleteAccount": "Delete Account",
+  "deleteAccountConfirmation": "This will permanently delete your account and all associated data. This action cannot be undone. Continue?",
+  "delete": "Delete",
+
+
+  "about": "About",
+  "appVersion": "App Version",
+  "termsOfService": "Terms of Service",
+  "privacyPolicy": "Privacy Policy",
+  "removedFromFavorites": "Removed {model} from favorites",
+  "@removedFromFavorites": {
+    "description": "Message shown when a car is removed from favorites",
+    "placeholders": {
+      "model": {
+        "type": "String",
+        "example": "Toyota Camry"
+      }
+    }
+  },
+  "undo": "Undo",
+  "@undo": {
+    "description": "Label for the undo action"
+  },
+  "remove": "Remove",
+  "@remove": {
+    "description": "Label for the remove action"
+  },
+
+  "@error": {
+    "description": "Label for error messages"
+  },
+  "noFavoriteCars": "No Favorite Cars",
+  "@noFavoriteCars": {
+    "description": "Message shown when there are no favorite cars"
+  },
+  "markCarsAsFavorite": "Mark cars as favorite to see them here",
+  "@markCarsAsFavorite": {
+    "description": "Instruction to mark cars as favorite"
+  },
+
+  "@profile": {
+    "description": "Label for profile screen"
+  },
+  "editProfile": "Edit Profile",
+  "@editProfile": {
+    "description": "Label for edit profile action"
+  },
+  "cancelEditing": "Cancel Editing",
+  "@cancelEditing": {
+    "description": "Label for cancel editing action"
+  },
+  "errorLoadingProfile": "Error loading profile: {error}",
+  "@errorLoadingProfile": {
+    "description": "Error message when profile cannot be loaded",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "selectImageSource": "Select Image Source",
+  "@selectImageSource": {
+    "description": "Title for image source selection dialog"
+  },
+  "camera": "Camera",
+  "@camera": {
+    "description": "Option to take a photo using camera"
+  },
+  "gallery": "Gallery",
+  "@gallery": {
+    "description": "Option to select a photo from gallery"
+  },
+
+  "@cancel": {
+    "description": "Label for cancel action"
+  },
+  "imagePickerPermissionError": "Cannot access camera or photos. Please check app permissions.",
+  "@imagePickerPermissionError": {
+    "description": "Error message shown when image picker permissions are denied"
+  },
+  "errorSelectingImage": "Error selecting image: {error}",
+  "@errorSelectingImage": {
+    "description": "Error message when image selection fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Permission denied"
+      }
+    }
+  },
+  "errorUploadingImage": "Error uploading image: {error}",
+  "@errorUploadingImage": {
+    "description": "Error message when image upload fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "profileUpdatedSuccess": "Profile updated successfully",
+  "@profileUpdatedSuccess": {
+    "description": "Success message when profile is updated"
+  },
+  "errorUpdatingProfile": "Error updating profile: {error}",
+  "@errorUpdatingProfile": {
+    "description": "Error message when profile update fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "errorSigningOut": "Error signing out: {error}",
+  "@errorSigningOut": {
+    "description": "Error message when sign out fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "ok": "OK",
+  "@ok": {
+    "description": "Label for OK action"
+  },
+  "fullName": "Full Name",
+  "@fullName": {
+    "description": "Label for full name field"
+  },
+  "phoneNumber": "Phone Number",
+  "@phoneNumber": {
+    "description": "Label for phone number field"
+  },
+  "address": "Address",
+  "@address": {
+    "description": "Label for address field"
+  },
+  "saveProfile": "Save Profile",
+  "@saveProfile": {
+    "description": "Label for save profile action"
+  },
+  "accountInformation": "Account Information",
+  "@accountInformation": {
+    "description": "Label for account information section"
+  },
+  "signOut": "Sign Out",
+  "@signOut": {
+    "description": "Label for sign out action"
+  },
+  "nameRequired": "Name is required",
+  "@nameRequired": {
+    "description": "Validation message when name field is empty"
+  },
+  "noEmail": "No email",
+  "@noEmail": {
+    "description": "Text shown when user has no email"
+  },
+  "memberSince": "Member Since",
+  "@memberSince": {
+    "description": "Label for member since field"
+  },
+  "rentals": "Rentals",
+  "@rentals": {
+    "description": "Label for rentals field"
+  },
+  "status": "Status",
+  "@status": {
+    "description": "Label for status field"
+  },
+  "active": "Active",
+  "@active": {
+    "description": "Label for active status"
+  },
+  "reviews": "Reviews",
+  "@reviews": {
+    "description": "Label for reviews field"
+  }
+}

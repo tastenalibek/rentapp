@@ -1,0 +1,234 @@
+{
+  "appTitle": "Жалдау бағдарламасы",
+  "home": "Басты бет",
+  "favorites": "Таңдаулылар",
+  "cars": "Автокөліктер",
+  "settings": "Параметрлер",
+  "profile": "Профиль",
+  "searchByModel": "Модель бойынша іздеу...",
+  "sortBy": "Сұрыптау",
+  "model": "Модель",
+  "price": "Баға",
+
+  "welcomeMessage": "RentApp қош келдіңіз",
+  "@@locale": "kk",
+
+  "hello": "Сәлем",
+  "user": "Пайдаланушы",
+  "findYourPerfectRide": "Өзіңізге керемет көлікті бүгін табыңыз!",
+  "featuredCars": "Ерекше көліктер",
+  "seeAll": "Барлығын көру",
+  "hour": "сағат",
+  "rentNow": "Қазір жалға алу",
+  "specialOffers": "Арнайы ұсыныстар",
+  "off": "ЖЕҢІЛДІК",
+  "weekendSpecial": "Демалыс күндері арнайы",
+  "useCode": "Кодты қолдану",
+  "errorLoadingFeaturedCars": "Көліктерді жүктеу кезінде қате",
+
+
+  "appearance": "Сыртқы көрініс",
+  "darkMode": "Қараңғы режим",
+  "appTheme": "Қолданба тақырыбы",
+  "general": "Жалпы",
+  "language": "Тіл",
+  "enableNotifications": "Хабарландыруларды қосу",
+  "notificationsDescription": "Жаңа ұсыныстар мен брондау мәртебесі туралы жаңартулар алыңыз",
+  "enableLocation": "Орналасуды қосу",
+  "locationDescription": "Қолданбаға жақын көліктер үшін орналасқан жеріңізге қол жеткізуге рұқсат беріңіз",
+  "saveRecentSearches": "Соңғы іздеулерді сақтау",
+  "recentSearchesDescription": "Тезірек қол жеткізу үшін іздеу тарихыңызды сақтаңыз",
+  "clearAppData": "Қолданба деректерін тазалау",
+  "clearAppDataDescription": "Кэшті және маңызды емес деректерді тазалау",
+  "clearAppDataConfirmation": "Бұл есептік жазба ақпаратыңыздан басқа барлық қолданба деректерін тазалайды. Жалғастыру керек пе?",
+  "cancel": "Болдырмау",
+  "clear": "Тазалау",
+  "appDataCleared": "Қолданба деректері сәтті тазартылды",
+
+  "account": "Есептік жазба",
+  "notSignedIn": "Кірмеген",
+  "emailAddress": "Электрондық пошта",
+  "logout": "Шығу",
+  "logoutConfirmation": "Шығуды қалайсыз ба?",
+  "deleteAccount": "Есептік жазбаны жою",
+  "deleteAccountConfirmation": "Бұл есептік жазбаңызды және онымен байланысты барлық деректерді біржола жояды. Бұл әрекетті кері қайтару мүмкін емес. Жалғастыру керек пе?",
+  "delete": "Жою",
+
+
+  "about": "Қолданба туралы",
+  "appVersion": "Қолданба нұсқасы",
+  "termsOfService": "Қызмет көрсету шарттары",
+  "privacyPolicy": "Құпиялылық саясаты",
+  "removedFromFavorites": "{model} таңдаулылардан жойылды",
+  "@removedFromFavorites": {
+    "description": "Message shown when a car is removed from favorites",
+    "placeholders": {
+      "model": {
+        "type": "String",
+        "example": "Toyota Camry"
+      }
+    }
+  },
+  "undo": "Болдырмау",
+  "@undo": {
+    "description": "Label for the undo action"
+  },
+  "remove": "Жою",
+  "@remove": {
+    "description": "Label for the remove action"
+  },
+  "error": "Қате",
+  "@error": {
+    "description": "Label for error messages"
+  },
+  "noFavoriteCars": "Таңдаулы көліктер жоқ",
+  "@noFavoriteCars": {
+    "description": "Message shown when there are no favorite cars"
+  },
+  "markCarsAsFavorite": "Көліктерді таңдаулы ретінде белгілеңіз",
+  "@markCarsAsFavorite": {
+    "description": "Instruction to mark cars as favorite"
+  },
+
+  "@profile": {
+    "description": "Label for profile screen"
+  },
+  "editProfile": "Профильді өңдеу",
+  "@editProfile": {
+    "description": "Label for edit profile action"
+  },
+  "cancelEditing": "Өңдеуді болдырмау",
+  "@cancelEditing": {
+    "description": "Label for cancel editing action"
+  },
+  "errorLoadingProfile": "Профильді жүктеу қатесі: {error}",
+  "@errorLoadingProfile": {
+    "description": "Error message when profile cannot be loaded",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "selectImageSource": "Сурет көзін таңдаңыз",
+  "@selectImageSource": {
+    "description": "Title for image source selection dialog"
+  },
+  "camera": "Камера",
+  "@camera": {
+    "description": "Option to take a photo using camera"
+  },
+  "gallery": "Галерея",
+  "@gallery": {
+    "description": "Option to select a photo from gallery"
+  },
+
+  "@cancel": {
+    "description": "Label for cancel action"
+  },
+  "imagePickerPermissionError": "Камера немесе фотосуреттерге қол жеткізу мүмкін емес. Қолданба рұқсаттарын тексеріңіз.",
+  "@imagePickerPermissionError": {
+    "description": "Error message shown when image picker permissions are denied"
+  },
+  "errorSelectingImage": "Сурет таңдау қатесі: {error}",
+  "@errorSelectingImage": {
+    "description": "Error message when image selection fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Permission denied"
+      }
+    }
+  },
+  "errorUploadingImage": "Суретті жүктеу қатесі: {error}",
+  "@errorUploadingImage": {
+    "description": "Error message when image upload fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "profileUpdatedSuccess": "Профиль сәтті жаңартылды",
+  "@profileUpdatedSuccess": {
+    "description": "Success message when profile is updated"
+  },
+  "errorUpdatingProfile": "Профильді жаңарту қатесі: {error}",
+  "@errorUpdatingProfile": {
+    "description": "Error message when profile update fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "errorSigningOut": "Жүйеден шығу қатесі: {error}",
+  "@errorSigningOut": {
+    "description": "Error message when sign out fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "ok": "ОК",
+  "@ok": {
+    "description": "Label for OK action"
+  },
+  "fullName": "Толық аты",
+  "@fullName": {
+    "description": "Label for full name field"
+  },
+  "phoneNumber": "Телефон нөмірі",
+  "@phoneNumber": {
+    "description": "Label for phone number field"
+  },
+  "address": "Мекенжай",
+  "@address": {
+    "description": "Label for address field"
+  },
+  "saveProfile": "Профильді сақтау",
+  "@saveProfile": {
+    "description": "Label for save profile action"
+  },
+  "accountInformation": "Аккаунт ақпараты",
+  "@accountInformation": {
+    "description": "Label for account information section"
+  },
+  "signOut": "Шығу",
+  "@signOut": {
+    "description": "Label for sign out action"
+  },
+  "nameRequired": "Аты міндетті",
+  "@nameRequired": {
+    "description": "Validation message when name field is empty"
+  },
+  "noEmail": "Email жоқ",
+  "@noEmail": {
+    "description": "Text shown when user has no email"
+  },
+  "memberSince": "Тіркелген күні",
+  "@memberSince": {
+    "description": "Label for member since field"
+  },
+  "rentals": "Жалдаулар",
+  "@rentals": {
+    "description": "Label for rentals field"
+  },
+  "status": "Мәртебе",
+  "@status": {
+    "description": "Label for status field"
+  },
+  "active": "Белсенді",
+  "@active": {
+    "description": "Label for active status"
+  },
+  "reviews": "Пікірлер",
+  "@reviews": {
+    "description": "Label for reviews field"
+  }
+}

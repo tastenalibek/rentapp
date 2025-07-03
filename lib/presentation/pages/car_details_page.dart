@@ -1,4 +1,3 @@
-//car_details_page.dart
 
 import 'package:flutter/material.dart';
 import 'package:rentapp/data/models/car.dart';
@@ -24,8 +23,8 @@ class _CardDetailsPageState extends State<CardDetailsPage> with SingleTickerProv
     super.initState();
 
     _controller = AnimationController(
-        duration: const Duration(seconds: 3),
-        vsync: this
+      duration: const Duration(seconds: 3),
+      vsync: this,
     );
 
     _animation = Tween<double>(begin: 1.0, end: 1.5).animate(_controller!)
@@ -38,7 +37,7 @@ class _CardDetailsPageState extends State<CardDetailsPage> with SingleTickerProv
 
   @override
   void dispose() {
-    _controller!.dispose(); // Fixed from forward() to dispose()
+    _controller!.dispose();
     super.dispose();
   }
 
@@ -67,22 +66,22 @@ class _CardDetailsPageState extends State<CardDetailsPage> with SingleTickerProv
                     child: Container(
                       padding: const EdgeInsets.all(20),
                       decoration: BoxDecoration(
-                          color: const Color(0xffF3F3F3),
-                          borderRadius: BorderRadius.circular(20),
-                          boxShadow: const [
-                            BoxShadow(
-                                color: Colors.black12,
-                                blurRadius: 10,
-                                spreadRadius: 5
-                            )
-                          ]
+                        color: Theme.of(context).textTheme.bodyLarge?.color,
+                        borderRadius: BorderRadius.circular(20),
+                        boxShadow: const [
+                          BoxShadow(
+                            color: Colors.black12,
+                            blurRadius: 10,
+                            spreadRadius: 5,
+                          )
+                        ],
                       ),
                       child: Column(
-                        children: [
-                          const CircleAvatar(radius: 40, backgroundImage: AssetImage('assets/user.png')),
-                          const SizedBox(height: 10),
-                          const Text('Jane Cooper', style: TextStyle(fontWeight: FontWeight.bold)),
-                          const Text('\$4,253', style: TextStyle(color: Colors.grey)),
+                        children: const [
+                          CircleAvatar(radius: 40, backgroundImage: AssetImage('assets/user.png')),
+                          SizedBox(height: 10),
+                          Text('Jane Cooper', style: TextStyle(fontWeight: FontWeight.bold)),
+                          Text('\$4,253', style: TextStyle(color: Colors.grey)),
                         ],
                       ),
                     ),
@@ -92,21 +91,21 @@ class _CardDetailsPageState extends State<CardDetailsPage> with SingleTickerProv
                     child: GestureDetector(
                       onTap: () {
                         Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => MapsDetailsPage(car: widget.car))
+                          context,
+                          MaterialPageRoute(builder: (context) => MapsDetailsPage(car: widget.car)),
                         );
                       },
                       child: Container(
                         height: 170,
                         decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(20),
-                            boxShadow: const [
-                              BoxShadow(
-                                  color: Colors.black12,
-                                  blurRadius: 10,
-                                  spreadRadius: 5
-                              )
-                            ]
+                          borderRadius: BorderRadius.circular(20),
+                          boxShadow: const [
+                            BoxShadow(
+                              color: Colors.black12,
+                              blurRadius: 10,
+                              spreadRadius: 5,
+                            )
+                          ],
                         ),
                         child: Stack(
                           children: [
@@ -118,7 +117,6 @@ class _CardDetailsPageState extends State<CardDetailsPage> with SingleTickerProv
                                 child: Image.asset('assets/maps.png', fit: BoxFit.cover),
                               ),
                             ),
-                            // Overlay with "View on Map" text
                             ClipRRect(
                               borderRadius: BorderRadius.circular(20),
                               child: Container(
@@ -174,44 +172,26 @@ class _CardDetailsPageState extends State<CardDetailsPage> with SingleTickerProv
                       ),
                     ),
                   ),
-                  MoreCard(car: Car(
-                    model: widget.car.model+"-1",
-                    distance: widget.car.distance+100,
-                    fuelCapacity: widget.car.fuelCapacity+100,
-                    pricePerHour: widget.car.pricePerHour+10,
-                    latitude: 51.1794,  // Adding Astana-area coordinates
-                    longitude: 71.4591,
-                  )),
+                  MoreCard(car: widget.car.copyWith(model: widget.car.model + "-1", distance: widget.car.distance + 10, fuelCapacity: widget.car.fuelCapacity + 100, pricePerHour: widget.car.pricePerHour + 10, image: widget.car.image)),
                   const SizedBox(height: 10),
-                  MoreCard(car: Car(
-                    model: widget.car.model+"-2",
-                    distance: widget.car.distance+200,
-                    fuelCapacity: widget.car.fuelCapacity+200,
-                    pricePerHour: widget.car.pricePerHour+20,
-                    latitude: 51.1594,
-                    longitude: 71.4391,
-                  )),
+                  MoreCard(car: widget.car.copyWith(model: widget.car.model + "-2", distance: widget.car.distance + 20, fuelCapacity: widget.car.fuelCapacity + 200, pricePerHour: widget.car.pricePerHour + 20, image: widget.car.image)),
                   const SizedBox(height: 10),
-                  MoreCard(car: Car(
-                    model: widget.car.model+"-3",
-                    distance: widget.car.distance+300,
-                    fuelCapacity: widget.car.fuelCapacity+300,
-                    pricePerHour: widget.car.pricePerHour+30,
-                    latitude: 51.1894,
-                    longitude: 71.4691,
-                  )),
+                  MoreCard(car: widget.car.copyWith(model: widget.car.model + "-3", distance: widget.car.distance + 30, fuelCapacity: widget.car.fuelCapacity + 300, pricePerHour: widget.car.pricePerHour + 30, image: widget.car.image)),
+                  const SizedBox(height: 10),
+                  MoreCard(car: widget.car.copyWith(model: widget.car.model + "-4", distance: widget.car.distance + 40, fuelCapacity: widget.car.fuelCapacity + 340, pricePerHour: widget.car.pricePerHour + 37, image: widget.car.image)),
+                  const SizedBox(height: 10),
+                  MoreCard(car: widget.car.copyWith(model: widget.car.model + "-5", distance: widget.car.distance + 40, fuelCapacity: widget.car.fuelCapacity + 410, pricePerHour: widget.car.pricePerHour + 41, image: widget.car.image)),
                 ],
               ),
             )
           ],
         ),
       ),
-      // Add a floating action button to directly go to maps
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {
           Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => MapsDetailsPage(car: widget.car))
+            context,
+            MaterialPageRoute(builder: (context) => MapsDetailsPage(car: widget.car)),
           );
         },
         label: const Text('Navigate'),

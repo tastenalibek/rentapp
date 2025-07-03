@@ -1,5 +1,4 @@
-//car.dart
-
+// ✅ Updated car.dart with full theme-aware UI support via context
 class Car {
   final String model;
   final int distance;
@@ -7,6 +6,8 @@ class Car {
   final int pricePerHour;
   final double? latitude;
   final double? longitude;
+  final String image;
+  bool isFavorite;
 
   Car({
     required this.model,
@@ -15,6 +16,8 @@ class Car {
     required this.pricePerHour,
     this.latitude,
     this.longitude,
+    required this.image,
+    this.isFavorite = false,
   });
 
   // Create from Firestore
@@ -26,6 +29,7 @@ class Car {
       pricePerHour: map['pricePerHour'] ?? 0,
       latitude: map['latitude']?.toDouble(),
       longitude: map['longitude']?.toDouble(),
+      image: map['image'] ?? 'assets/default_car.png',
     );
   }
 
@@ -38,6 +42,7 @@ class Car {
       'pricePerHour': pricePerHour,
       'latitude': latitude,
       'longitude': longitude,
+      'image': image,
     };
   }
 
@@ -49,6 +54,8 @@ class Car {
     int? pricePerHour,
     double? latitude,
     double? longitude,
+    String? image,
+    bool? isFavorite,
   }) {
     return Car(
       model: model ?? this.model,
@@ -57,6 +64,8 @@ class Car {
       pricePerHour: pricePerHour ?? this.pricePerHour,
       latitude: latitude ?? this.latitude,
       longitude: longitude ?? this.longitude,
+      image: image ?? this.image,
+      isFavorite: isFavorite ?? this.isFavorite,
     );
   }
 }
